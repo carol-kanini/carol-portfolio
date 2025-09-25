@@ -6,3 +6,8 @@
 :root {
     font-family: "inter", sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+  
