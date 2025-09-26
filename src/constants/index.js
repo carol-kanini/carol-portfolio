@@ -91,3 +91,5 @@ export const CONTACT = {
   phoneNo: "+254-717-677-853 ",
   email: "edwinngigi313@gmail.com",
 };
+
+export const RESUME_LINK = "/resume.pdf";
