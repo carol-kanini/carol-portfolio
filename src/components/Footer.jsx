@@ -144,7 +144,7 @@ const Footer = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full flex-shrink-0"></div>
-                    <p>+254 717 677853</p>
+                    <p>+254-717-677-853</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full flex-shrink-0"></div>
@@ -197,11 +197,15 @@ const Footer = () => {
                   className="flex space-x-8 text-base text-neutral-500"
                 >
                   <a href="#" className="hover:text-pink-400 transition-all duration-300 px-4 py-2 rounded-lg hover:bg-white/5">
-                    Privacy Policy
+                  Privacy Policy  
                   </a>
-                  <span className="text-neutral-600">•</span>
+                  <span className="text-neutral-600">|</span>
                   <a href="#" className="hover:text-pink-400 transition-all duration-300 px-4 py-2 rounded-lg hover:bg-white/5">
                     Terms of Service
+                  </a>
+                  <span className="text-neutral-600">|</span>
+                  <a href="#" className="hover:text-pink-400 transition-all duration-300 px-4 py-2 rounded-lg hover:bg-white/5">
+                    Cookie Policy
                   </a>
                 </motion.div>
               </div>

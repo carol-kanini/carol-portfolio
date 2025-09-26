@@ -10,3 +10,14 @@ export default {
   plugins: [],
 }
 
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      backgroundImage: {
+        'gradient-to-r': 'linear-gradient(to right, var(--tw-gradient-stops))',
+      }
+    },
+  },
+  plugins: [],
+}
