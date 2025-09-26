@@ -6,6 +6,7 @@ import Technologies from './components/Technologies'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -23,7 +24,8 @@ const App = () => {
             <section id='technologies'><Technologies /></section>
             <section id='experience'></section>
             <section id='projects'><Projects /></section>
-            <section id='contact'><Contact /></section>
+            <section id='footer'><Footer /></section>
+
           </div>
         </div>
     </div>

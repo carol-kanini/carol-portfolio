@@ -60,7 +60,7 @@ const Hero = () => {
               src={profilePic} 
               alt="profile"
               className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 object-cover rounded-2xl shadow-lg" 
-            />
+              />
           </div>
         </div>
       </div>
