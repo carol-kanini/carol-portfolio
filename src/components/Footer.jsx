@@ -54,9 +54,9 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="relative overflow-hidden">
+    <footer className="relative">
       {/* Background Gradient Effect */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-neutral-900/5 to-neutral-900/10"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-neutral-900/5 to-neutral-900/10 pointer-events-none"></div>
       
       {/* Main Footer Content with Glass Morphism */}
       <div className="relative w-full px-4 sm:px-6 lg:px-8 py-16">
@@ -137,7 +137,7 @@ const Footer = () => {
                 className="space-y-6"
               >
                 <h4 className="text-xl font-semibold text-white">Get In Touch</h4>
-                <div className="space-y-4 text-base text-neutral-300">
+                <div className="space-y-3 text-sm sm:text-base text-neutral-300">
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex-shrink-0"></div>
                     <p>Nairobi, Kenya</p>
@@ -149,7 +149,7 @@ const Footer = () => {
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full flex-shrink-0"></div>
                     <p 
-                      className="cursor-pointer hover:text-pink-400 transition-all duration-300 font-medium"
+                      className="cursor-pointer hover:text-pink-400 transition-all duration-300 font-medium break-words"
                     >
                       edwinngigi313@gmail.com
                     </p>
@@ -160,7 +160,7 @@ const Footer = () => {
                 <motion.button
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.95 }}
-                  className="w-full px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white text-base font-semibold rounded-xl shadow-2xl hover:shadow-3xl transition-all duration-300 hover:from-pink-600 hover:to-purple-700"
+                  className="w-full px-6 py-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white text-base font-semibold rounded-xl shadow-2xl hover:shadow-3xl transition-all duration-300 hover:from-pink-600 hover:to-purple-700"
                 >
                   Let's Talk
                 </motion.button>
@@ -178,33 +178,37 @@ const Footer = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.8 }}
-              className="flex flex-col items-center space-y-6 text-center"
+              transition={{ duration: 0.6 }}
+              className="flex flex-col items-center space-y-4 text-center"
             >
               
               {/* Copyright with better spacing */}
-              <div className="flex flex-col items-center space-y-4">
-                <p className="text-neutral-400 text-lg flex items-center justify-center">
-                  © {currentYear} Edwin Ngigi. Crafted with{" "}
-                  <FaHeart className="text-pink-500 mx-2 animate-pulse" /> using React & Tailwind CSS
+              <div className="flex flex-col items-center space-y-3">
+                <p className="text-neutral-400 text-sm sm:text-base text-center max-w-full break-words">
+                  © {currentYear} Edwin Ngigi. Crafted with {" "}
+                  <span className='inline-flex items-center mx-1'> <FaHeart className="text-pink-500 mx-2 animate-pulse inline-middle" /> </span>
+                  using React &amp; Tailwind CSS
                 </p>
                 
                 {/* Additional Links - Centered with spacing */}
                 <motion.div
-                  initial={{ opacity: 0, y: 10 }}
+                  initial={{ opacity: 0, y: 5 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.3 }}
-                  className="flex space-x-8 text-base text-neutral-500"
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  className="flex flex-wrap justify-center gap-3 text-sm sm:text-base text-neutral-500"
                 >
-                  <a href="#" className="hover:text-pink-400 transition-all duration-300 px-4 py-2 rounded-lg hover:bg-white/5">
-                  Privacy Policy  
+                  <a href="#" className="hover:text-pink-400 transition-all duration-300 px-3 py-1 sm:px-4 sm:py-2 rounded-lg hover:bg-white/5 whitespace-normal"
+                  >
+                    Privacy Policy  
                   </a>
                   <span className="text-neutral-600">|</span>
-                  <a href="#" className="hover:text-pink-400 transition-all duration-300 px-4 py-2 rounded-lg hover:bg-white/5">
+                  <a href="#" className="hover:text-pink-400 transition-all duration-300 px-3 py-1 sm:px-4 sm:py-2 rounded-lg hover:bg-white/5 whitespace-normal"
+                  >
                     Terms of Service
                   </a>
                   <span className="text-neutral-600">|</span>
-                  <a href="#" className="hover:text-pink-400 transition-all duration-300 px-4 py-2 rounded-lg hover:bg-white/5">
+                  <a href="#" className="hover:text-pink-400 transition-all duration-300 px-3 py-1 sm:px-4 sm:py-2 rounded-lg hover:bg-white/5 whitespace-normal"
+                  >
                     Cookie Policy
                   </a>
                 </motion.div>
@@ -214,8 +218,8 @@ const Footer = () => {
               <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{ duration: 0.6, delay: 0.5 }}
-                className="text-sm text-neutral-600 font-light"
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="text-xs sm:text-sm text-neutral-600 font-light"
               >
                 Innovating through code, designing with passion.
               </motion.p>
