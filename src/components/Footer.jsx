@@ -15,31 +15,31 @@ const Footer = () => {
       hoverColor: "hover:bg-blue-500/20 hover:text-blue-400",
     },
     {
-      href: "https://github.com/eduu-11287",
+      href: "https://github.com/carol-kanini",
       icon: FaGithub,
       label: "GitHub",
       hoverColor: "hover:bg-gray-700/20 hover:text-gray-300",
     },
     {
-      href: "https://wa.me/254717677853",
+      href: "https://wa.me/254710218307",
       icon: FaWhatsapp,
       label: "WhatsApp",
       hoverColor: "hover:bg-green-500/20 hover:text-green-400",
     },
     {
-      href: "https://x.com/Bumble_254",
+      href: "#",
       icon: FaSquareXTwitter,
       label: "X (Twitter)",
       hoverColor: "hover:bg-sky-500/20 hover:text-sky-400",
     },
     {
-      href: "https://www.instagram.com/eduuh_254",
+      href: "https://www.instagram.com/daizycaroly",
       icon: FaInstagram,
       label: "Instagram",
       hoverColor: "hover:bg-pink-500/20 hover:text-pink-400",
     },
     {
-      href: "https://www.facebook.com/Eduuh254",
+      href: "https://www.facebook.com/daizycaroly",
       icon: FaFacebook,
       label: "Facebook",
       hoverColor: "hover:bg-blue-600/20 hover:text-blue-400",
@@ -77,7 +77,7 @@ const Footer = () => {
                 className="lg:col-span-2 space-y-6"
               >
                 <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-300 via-slate-300 to-purple-400 bg-clip-text text-transparent">
-                  Edwin Ngigi
+                  Caroline kanini
                 </h3>
                 <p className="text-neutral-300 text-lg leading-relaxed max-w-md">
                   Full Stack Developer crafting digital experiences with modern technologies. 
@@ -144,14 +144,14 @@ const Footer = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full flex-shrink-0"></div>
-                    <p>+254-717-677-853</p>
+                    <p>+254-710-218-307</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full flex-shrink-0"></div>
                     <p 
                       className="cursor-pointer hover:text-pink-400 transition-all duration-300 font-medium break-words"
                     >
-                      edwinngigi313@gmail.com
+                      caroliinekanini@gmail.com
                     </p>
                   </div>
                 </div>
@@ -185,7 +185,7 @@ const Footer = () => {
               {/* Copyright with better spacing */}
               <div className="flex flex-col items-center space-y-3">
                 <p className="text-neutral-400 text-sm sm:text-base text-center max-w-full break-words">
-                  © {currentYear} Edwin Ngigi. Crafted with {" "}
+                  © {currentYear} Caroline Kanini. Crafted with {" "}
                   <span className='inline-flex items-center mx-1'> <FaHeart className="text-pink-500 mx-2 animate-pulse inline-middle" /> </span>
                   using React &amp; Tailwind CSS
                 </p>

@@ -7,7 +7,7 @@ const About = () => {
     //temporary anchor element
     const link = document.createElement('a');
     link.href = RESUME_LINK;
-    link.download = 'Edwin Ngigi cv'; 
+    link.download = 'caroline kanini cv'; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

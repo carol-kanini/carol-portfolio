@@ -1,5 +1,4 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
+
 import project3 from "../assets/projects/project-3.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack
@@ -11,7 +10,7 @@ export const HERO_CONTENT = `I am a passionate full stack developer with a knack
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion
   for creating efficient and user-friendly web applications.
-  I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and python.
+  I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, and python.
   My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously 
   strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. 
   Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
@@ -55,20 +54,7 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["React", "Tailwind", "postgreSQL",]
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["React", "CSS", "postgreSQL",]
-  },
+
   {
     title: "Portfolio Website",
     image: project3,
@@ -80,8 +66,8 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "00100, Nairobi, Kenya",
-  phoneNo: "+254-717-677-853 ",
-  email: "edwinngigi313@gmail.com",
+  phoneNo: "+254-710-218-307 ",
+  email: "caroliinekanini@gmail.com",
 };
 
 export const RESUME_LINK = "/resume.pdf";

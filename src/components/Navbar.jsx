@@ -41,35 +41,35 @@ const Navbar = () => {
       priority: 1 
     },
     {
-      href: "https://github.com/eduu-11287",
+      href: "https://github.com/carol-kanini",
       icon: FaGithub,
       label: "GitHub",
       hoverColor: "hover:bg-gray-700",
       priority: 1
     },
     {
-      href: "https://wa.me/254717677853",
+      href: "https://wa.me/254710218307",
       icon: FaWhatsapp,
       label: "WhatsApp",
       hoverColor: "hover:bg-green-500",
       priority: 1
     },
     {
-      href: "https://x.com/Bumble_254",
+      href: "#",
       icon: FaSquareXTwitter,
       label: "X (Twitter)",
       hoverColor: "hover:bg-sky-500",
       priority: 2
     },
     {
-      href: "https://www.instagram.com/eduuh_254",
+      href: "https://www.instagram.com/daizycaroly",
       icon: FaInstagram,
       label: "Instagram",
       hoverColor: "hover:bg-pink-500",
       priority: 2
     },
     {
-      href: "https://www.facebook.com/Eduuh254",
+      href: "https://www.facebook.com/daizycaroly",
       icon: FaFacebook,
       label: "Facebook",
       hoverColor: "hover:bg-blue-600",

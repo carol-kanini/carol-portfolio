@@ -23,7 +23,7 @@ const Hero = () => {
                   animate="visible"
                   className="pb-2 text-5xl sm:text-6xl font-light tracking-tight lg:text-7xl xl:text-8xl bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent"
                   >
-                  Edwin Ngigi
+                  Caroline Kanini
                 </motion.h1>
                 <motion.span 
                   variants={container(0.5)}
